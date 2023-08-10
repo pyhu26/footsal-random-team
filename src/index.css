@@ -67,3 +67,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.grayscale_img_1 {
+  filter: grayscale(0);
+}
+
+.grayscale_img_2 {
+  filter: grayscale(50%);
+}
+
+.grayscale_img_3 {
+  filter: grayscale(100%);
+}
+
+.rndBtn {
+  margin: 10px;
+}
