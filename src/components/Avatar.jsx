@@ -22,10 +22,10 @@ export default function Avatar(props) {
     }
   };
 
-  const imgSrc = `./public/profile/${name}.png`;
+  const imgSrc = `profile/${name}.png`;
   const handlerImgOnError = (e) => {
     try {
-      e.target.src = "./public/profile/김덕배.png";
+      e.target.src = "profile/김덕배.png";
     } catch (err) {
       console.error(err);
     }
